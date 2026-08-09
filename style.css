@@ -175,6 +175,13 @@ a.work-note:focus-visible { color: var(--ink); border-color: var(--ink); }
   text-decoration-thickness: 1px;
 }
 
+.social-link {
+  margin: 28px 0 0 !important;
+  font-size: 12px !important;
+}
+
+.social-link a { text-underline-offset: 5px; }
+
 .support-details {
   width: min(100%, 520px);
   margin-top: 112px;
