@@ -136,17 +136,17 @@ figure img {
 
 .work p { margin: 0; color: var(--subtle); font-size: 13px; }
 
-.work-note {
+.work .work-note {
   display: inline-block;
   margin-top: 12px;
   color: var(--subtle);
-  font-size: 11px !important;
+  font-size: 11px;
   text-decoration: none;
   white-space: nowrap;
 }
 
 a.work-note,
-.work-note a { text-decoration: none; border-bottom: 1px solid var(--line); }
+.work-note a { display: inline-block; text-decoration: none; border-bottom: 1px solid var(--line); }
 
 a.work-note:hover,
 a.work-note:focus-visible,
@@ -219,7 +219,7 @@ footer a { text-underline-offset: 4px; }
   .works { padding-bottom: 82px; }
   .works { grid-template-columns: 1fr; gap: 68px; }
   .works > h1 { margin-bottom: -44px; }
-  .work-note { white-space: normal; }
+  .work .work-note { white-space: normal; }
   .contact-page { padding: 78px 0; }
   .support-details { margin-top: 82px; }
   footer { min-height: 104px; align-items: flex-start; flex-direction: column; justify-content: center; gap: 5px; }
